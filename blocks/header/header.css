@@ -170,12 +170,13 @@ header nav[aria-expanded="true"] .nav-sections {
 header nav .nav-sections ul  {
   list-style: none;
   padding-left: 0;
-  font-size: var(--body-font-size-s);
   font-weight: 500;
 }
 
 header nav .nav-sections ul > li {
-  font-weight: 700;
+  font-weight: bolder;
+  font-size: 14px;
+  color: #232B76;
 }
 
 header nav .nav-sections ul > li > ul {
@@ -184,6 +185,7 @@ header nav .nav-sections ul > li > ul {
 
 header nav .nav-sections ul > li > ul > li {
   font-weight: 500;
+  
 }
 
 @media (width >= 900px) {
