@@ -1,5 +1,5 @@
 {
-  "project": "Boilerplate with Library",
+  "project": "aem-site",
   "plugins": [
     {
       "id": "library",
