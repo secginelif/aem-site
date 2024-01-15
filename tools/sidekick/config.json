@@ -1,12 +1,12 @@
 {
-  "project": "Example",
+  "project": "aem-site",
   "plugins": [
     {
       "id": "library",
       "title": "Library",
       "environments": ["edit"],
       "url": "/tools/sidekick/library.html",
-      "path": "**json",
+      "path": "**json**",
       "includePaths": ["**.docx**"]
     }
   ]
