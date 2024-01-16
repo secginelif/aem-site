@@ -41,8 +41,14 @@
   --nav-height: 64px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
-  font-family: roboto-fallback;
+  font-family: 'FSAlbert', sans-serif;
   size-adjust: 100.06%;
   ascent-override: 95%;
   src: local('Arial');
@@ -187,19 +193,19 @@ main img {
 
 /* sections */
 main .section {
-  padding: 64px 16px;
+
 }
 
 @media (width >= 600px) {
   main .section {
-    padding: 64px 32px;
+   
   }
 }
 
 @media (width >= 900px) {
   .section > div {
-    max-width: 1200px;
-    margin: auto;
+
+    
   }
 }
 
@@ -208,3 +214,350 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
+
+/*-----------------------------my csss----------------------------------------*/
+
+/* ----banner-----   */
+
+
+.hero-container h3 {
+  font-size: 25px;
+
+
+}
+.hero-container h1 {
+  font-size: 40px;
+
+}
+
+.side-by-side div{
+  margin-left: 45px;
+}
+
+.side-by-side div:first-child{
+  width: 800px;
+  
+}
+.side-by-side div:nth-child(2){
+  display: flex;
+  
+  
+ 
+}
+.side-by-side div:nth-child(3) div{
+  display: flex;
+  text-align: center;
+  
+}
+.side-by-side div:nth-child(3) div h6{
+  text-align: center;
+  color: #fff;
+  width: 85px;
+  height: 94px;
+  background-color: #1e1c2468;
+  font-size: 19px;
+  padding-top: 15px;
+  margin-left: 40px;
+  text-indent: 15px;
+  
+  
+ 
+}
+
+.side-by-side a.button {
+  width: 300px;
+  height: 50px;
+}
+.side-by-side p:nth-child(1) a.button {
+ margin-top: 30%;
+background: #FFCF2F;
+background: linear-gradient(180deg, #FFCF2F, #E9A521);
+  color: #232B76;
+}
+.side-by-side p:nth-child(2) a.button {
+  background-color: #fff;
+  color: #232B76;
+  margin: 0;
+
+}
+
+
+.heading img {
+  background-position: cover;
+}
+
+/* ----container-----   */
+.content {
+  background-color: #ffff;
+}
+
+.content h2:first-child{
+  font-size: 45px;
+  color: #042164;
+  font-weight: normal bold;
+  text-align: center;
+}
+
+
+
+/*----memberes card title-----*/
+.speakers-date {
+  display: flex;
+  margin-left: 30%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.speakers-date div:first-child div a:any-link{
+    background-color: #232B76;
+    color: #fff;
+    font-size: 17px;
+    height: 50px;
+    line-height: 35px;
+    
+}
+.speakers-date div:nth-child(2) div a{
+    background-color: #fff;
+    border: 1.5px solid #232B76 ;
+    color: #232B76;
+    margin-left: 30px;
+    font-size: 17px;
+    height: 50px;
+    line-height: 35px;
+}
+
+.speakers-date strong a {
+  text-decoration: none;
+  border: 2px solid #232B76;
+  color: #ffff;
+  padding: 10px;
+  border-radius: 40px;
+
+}
+/*----memberes card part-----*/
+.members-card-container {
+  display: flex;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 100px;
+  
+
+}
+
+.members-card-container div {
+   width: 300px;
+   margin: auto;
+}
+
+.members-card-container div img {
+  width: 150px;
+  height: 150px;
+}
+
+.members-card-container div p:first-child{
+      font-size: 21px;
+      color: #042164;
+}
+.members-card-container div p:nth-child(2){
+      font-size: 15px;
+      color: #333333;
+      margin: 0;
+      
+}
+
+.members-card-container div a.button {
+  background: #232B76 0% 0% no-repeat padding-box;
+  font-size: 15px;
+  margin: 0;
+}
+
+
+/* ----info part-----   */
+.info-content {
+  width: 100%;
+  height: 371px;
+  background-color: #F7F8FB;
+  opacity: 1;
+  text-align: center;
+  color: #232B76;
+  font-family: FS Albert,sans-serif;
+  }
+  
+  .info-content h1 {
+    margin-top: 5rem;
+    font-size: 40px;
+    font-weight: normal normal bold;
+    color: #232B76;
+  }
+  
+  .info-content h4{
+    margin: auto ;
+    font-weight: normal;
+    font-size: 24px;
+    width: 60%;
+    line-height: 40px;
+    color: inherit;
+  }
+
+/* ----icons part-----   */
+  .icon-content {
+    width: 100%;
+    height: 371px;
+    background-color: #ffff;
+    position: relative;
+    display: flex;
+    
+  
+    
+  }
+  .icon-content div{
+    margin-left: 60px;
+    position: relative;
+  }
+  .icon-content div h3 {
+    position: relative;
+    font-size: 30px;
+    color: #232B76;
+    z-index: 3;
+  }
+  .icon-content div p:first-child img {
+    position: absolute;
+    width: 64px;
+    height: 58px;
+    top: 10px;
+    left: -70px;
+    z-index: 4;
+  }
+  .icon-content div > div p:last-child img {
+   position: absolute;
+   top: -160px;
+    width: 74px;
+    height: 74px;
+    z-index: 0 !important;
+    opacity: 0.6;
+    
+  }
+  .icon-content div div p {
+    position: relative;
+    font-size: 18px;
+    font-size:medium
+    
+    
+  }
+  
+
+/* ----last part-----   */
+  .event-card {
+    background-color: #fff;
+   
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    
+  }
+  .event-content-card{
+    background-color: #F7F8FB;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 371px;
+  
+  }
+  
+  .event-card h4 {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: normal;
+   
+   
+  }
+  .event-card h6 {
+    font-size: 19px;
+    font-weight: normal;
+  }
+  .event-card h5 {
+    font-size: 18px;
+    color: #009FE3;
+    font-weight: normal;
+  }
+  
+  .event-card div:first-child div:first-child {
+    background-color: #232B76;
+    height: 50px;
+    width: 300px;
+    color: #ffff;
+    border-radius: 10px 10px 0 0;
+  
+  }
+  
+  
+  .event-card div strong:first-child a {
+    text-decoration: none;
+    background: #009FE3 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #1490DF60;
+    border-radius: 29px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    color: #fff;
+   padding: 10px;
+    
+  
+    
+  }
+  .event-card div strong:last-child a {
+    background: #009FE3 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #1490DF60;
+    border-radius: 29px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    color: #fff;
+   padding: 10px;
+    
+  
+    
+  }
+  .event-card div strong:last-child a {
+    text-decoration: none;
+    background: #042164 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #1490DF60;;
+    border-radius: 29px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    color: #fff;
+   padding: 10px;
+    
+  
+    
+  }
+  
+  .event-title {
+    background-color: #F7F8FB;
+    text-align: center;
+    
+  }
+  .event-title h1 {
+    font-size: 45px;
+    color: #042164;
+  }
+  
+  
+
+/* ----footer-----   */
+  .footer-wrapper {
+    background: #ffff;
+  
+  }
+  
+  .footer-wrapper .footer-content-column .footer-content .columns-img-col img {
+    width: 207px !important;
+    height: 51px !important;
+  }
+  
+  .footer-content h3 {
+    font-weight: normal;
+    text-align: end;
+    font-size: 15px;
+  }

@@ -6,7 +6,6 @@
       "title": "Library",
       "environments": ["edit"],
       "url": "/tools/sidekick/library.html",
-      "path": "**json**",
       "includePaths": ["**.docx**"]
     }
   ]
